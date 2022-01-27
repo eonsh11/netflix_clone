@@ -1,0 +1,145 @@
+
+.desktop-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.form-container {
+    width: 40%;
+    height: 70%;
+}
+
+#entrance-logo {
+    width: 40%;
+    height: 10%;
+    margin: auto auto 15% auto;
+    background: url("../static/image/riot.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#login-text {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.input-container {
+    width: 50%;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-text2 {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#btn-login {
+    width: 7vw;
+    height: 5vh;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px lightgray;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#btn-register {
+    width: 7vw;
+    height: 5vh;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px lightgray;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-img img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.btn-text {
+    flex: 2;
+    text-align: center;
+}
+
+#return-register {
+    color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#return-login {
+    color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login-text3 {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.register {
+    display: none;
+}
+
+.video-area {
+    width: 70%;
+    height: 100%;
+}
+
+.video-area video {
+    height: 100vh;
+}
+
+#unmutePlayerButton {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    overflow: hidden;
+    background: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+#mutePlayerButton {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    overflow: hidden;
+    background: black;
+    opacity: 0.8;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.material-icons-outlined {
+    color: white;
+}
