@@ -15,9 +15,60 @@
     justify-content: space-between;
 }
 
-.recommend-area {
+.recommend-btn-area {
     width: 20%;
     height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.LOL-logo {
+    width: 4vw;
+    height: 80%;
+    margin-left: 2vw;
+    background: url("../static/image/LOL-animated.gif");
+    background-size: cover;
+}
+
+.recommend-start {
+    width: 10vw;
+    height: 70%;
+    position: relative;
+    left: -0.4vw;
+    background: url("../static/image/recommend-start.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.recommend-start p{
+    position: relative;
+    top: 0.8vh;
+    left: -0.3vw;
+}
+
+.recommend-start:hover {
+    width: 10vw;
+    height: 70%;
+    background: url("../static/image/recommend-start-hover.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.LOL-title-logo {
+    width: 10vw;
+    height: 100%;
+    background: url("../static/image/LOL-title-logo.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: -3vw;
 }
 
 .profile-area {
@@ -65,49 +116,346 @@
     height: 100%;
 }
 
+.contents {
+    display: flex;
+    align-items: center;
+}
+
 .recommend-text {
-    margin: 3vh 3vw;
+    margin: 2vh auto auto 2.4vw;
     font-size: 1.5rem;
     color: rgb(205, 190, 145);
 }
 
 .recommend-container {
-    width: 61.35vw;
-    margin: 3vh 2vw;
+    width: 44.2vw;
+    height: 30vh;
+    margin: 2vh 2.4vw;
+    background: url("../static/image/recommend-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
-.recommend-container img {
+#rcm1 {
+    flex: 1;
+}
+
+#rcm1 .rcm-header {
+    width: 70%;
+    height: 20%;
+    padding: 5%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: 0.8rem;
+    align-items: center;
+}
+
+#rcm2 .rcm-header {
+    width: 70%;
+    height: 20%;
+    padding: 5%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: -0.6rem;
+    align-items: center;
+}
+
+#rcm3 .rcm-header {
+    width: 70%;
+    height: 20%;
+    padding: 5%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: 0.2rem;
+    align-items: center;
+}
+
+#rcm4 .rcm-header {
+    width: 70%;
+    height: 20%;
+    padding: 5%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: 0.6rem;
+    align-items: center;
+}
+
+#rcm5 .rcm-header {
+    width: 70%;
+    height: 20%;
+    padding: 5%;
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: 0.3rem;
+    align-items: center;
+}
+
+.rcm-img {
+    width: 30%;
+    height: 80%;
+}
+
+.rcm-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.rcm-text {
+    width: 70%;
+    height: 80%;
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    color: lightgoldenrodyellow;
+}
+
+.rcm-champion-img {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.champion-img-container {
+    width: 40%;
+    height: 100%;
+    border: 2px solid goldenrod;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.champion-img-container img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.stats-recommend-text {
-    margin: 3vh 3vw;
+.champion-name {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: lightgoldenrodyellow;
+}
+
+.champion-win-rate {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    color: lightgoldenrodyellow;
+}
+
+.champion-pick-rate {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    color: lightgoldenrodyellow;
+}
+
+.counter-champion-text {
+    width: 100%;
+    height: 8%;
+    margin-top: 0.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgoldenrodyellow;
+}
+
+.counter-champion-img-box {
+    width: 6vw;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rcm2 {
+    flex:1;
+}
+
+#rcm3 {
+    flex: 1;
+}
+
+#rcm4 {
+    flex: 1;
+}
+
+#rcm5 {
+    flex: 1;
+}
+
+.video-area {
+    width: 36%;
+    height: 30vh;
+    position: relative;
+    top: -0.5rem;
+}
+
+.video-text {
+    position: relative;
+    top: -1.2rem;
     font-size: 1.5rem;
     color: rgb(205, 190, 145);
 }
 
-.stats-recommend-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.stats-rank {
-    width: 12vw;
-}
-
-.stats-rank img {
+.video-area video {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 
+#unmutePlayerButton {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    overflow: hidden;
+    background: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10.4rem;
+    right: 24rem;
+    cursor: pointer;
+}
+
+#mutePlayerButton {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    overflow: hidden;
+    background: black;
+    opacity: 0.8;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10.4rem;
+    right: 24rem;
+    cursor: pointer;
+}
+
+#player2 {
+    display: none;
+}
+
+#player3 {
+    display: none;
+}
+
+#player4 {
+    display: none;
+}
 
 
+.stats-recommend-text {
+    margin: 2vh auto 1vh 2.4vw;
+    font-size: 1.5rem;
+    color: rgb(205, 190, 145);
+}
 
+.stats-recommend-text2 {
+    margin: 1vh auto;
+    font-size: 1.5rem;
+    color: rgb(205, 190, 145);
+    display:flex;
+}
 
+.stats-recommend-text2 div {
+    margin-left: 2.4vw;
+}
+
+#jungle-lane {
+    margin-left: 14vw;
+}
+
+#mid-lane {
+    margin-left: 12.2vw;
+}
+
+#bottom-lane {
+    margin-left: 13.7vw;
+}
+
+#support-lane {
+    margin-left: 11.8vw;
+}
+
+.stats-recommend-container {
+    margin-left: 2.4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.stats-box {
+    width: 16vw;
+    height: 36vh;
+    background: url("../static/image/rank-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.stats-rank-wrap {
+    width: 90%;
+    height: 18%;
+    margin-top: 0.6vh;
+    display: flex;
+    align-items: center;
+}
+
+.stats-rank {
+    width: 2vw;
+    height: 2vh;
+    margin: 1vh 0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(205, 190, 145);
+    font-weight: bold;
+}
+
+.stats-rank-img {
+    width: 2vw;
+    height: 4vh;
+    border: 1px solid goldenrod;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.stats-rank-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stats-rank-desc {
+    width: 10vw;
+    margin-left: 0.2vw;
+    font-size: 0.6vw;
+    color: rgb(205, 190, 145);
+}
 
 .community {
     width: 18%;
@@ -153,7 +501,7 @@
     width: 2.4vw;
     height: 4.6vh;
     margin-left: 1vw;
-    border: 1.5px solid color: rgb(205, 190, 145);;
+    border: 1.5px solid goldenrod;
     border-radius: 100%;
     overflow: hidden;
 }
